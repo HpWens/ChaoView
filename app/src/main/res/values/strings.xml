@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChaoDemo</string>
+    <string name="str_attention">关注</string>
+    <string name="str_follow">追随</string>
+</resources>
