@@ -76,7 +76,7 @@ TabLayout + ViewPager 实现多个界面的切换  android:layout_height="4dp" �
 	
 布局就讲到这里了，下面来看一下运行效果：
 	
-![scroll![\](http://img.blog.csdn.net/20180130002104752?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjU1MTM1MA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)](http://img.blog.csdn.net/20180130002124308?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjU1MTM1MA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![scroll](http://img.blog.csdn.net/20180130002124308?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjU1MTM1MA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 这里有一点需要注意的地方，ViewPager的Fragment里的滚动视图必须继承于NestedScrollingChild、NestedScrollingParent，不然滚动到最顶部 AppBarLayout 不会有下拉效果 。
 
